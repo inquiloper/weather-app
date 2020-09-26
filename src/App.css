@@ -1,31 +1,10 @@
-@font-face {
-  font-family: 'Raleway';
-  src:  url('./assets/fonts/Raleway-VariableFont_wght.ttf');
-}
-
-#today-forecast-container {
-  background-color: #1E213A;
-}
 
 #weather-forecast-container {
   background-color: #100E1D;
 }
 
-.weekday-forecast-container {
-  font-family: Raleway, sans-serif; 
-  background: #1E213A;
-  padding: 0.9rem 0;
-}
-
-.weekday-forecast-container .forecast-title{
-  color:white;
-  margin:0;
-}
-
 .weekday-forecast-container .forecast-icon {
-  max-width: 40%;
-  text-align: center;
-  display: inline-block;
+  
 }
 
 .weekday-forecast-container .max-temp {
@@ -41,4 +20,21 @@
 
 .today-highlight-title {
   color: #E7E7EB;
+}
+
+#today-forecast-img {
+  max-width: 50%;
+}
+
+#today-forecast-container {
+  color: #E7E7EB;
+}
+.today-forecast-temp {
+  font-size: 5rem;
+  color: #E7E7EB;
+}
+
+.today-forecast-temp-unit {
+  color:  #A09FB1;
+  font-size: 2.5rem;
 }
