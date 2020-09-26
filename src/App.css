@@ -1,38 +1,44 @@
-.App {
+@font-face {
+  font-family: 'Raleway';
+  src:  url('./assets/fonts/Raleway-VariableFont_wght.ttf');
+}
+
+#today-forecast-container {
+  background-color: #1E213A;
+}
+
+#weather-forecast-container {
+  background-color: #100E1D;
+}
+
+.weekday-forecast-container {
+  font-family: Raleway, sans-serif; 
+  background: #1E213A;
+  padding: 0.9rem 0;
+}
+
+.weekday-forecast-container .forecast-title{
+  color:white;
+  margin:0;
+}
+
+.weekday-forecast-container .forecast-icon {
+  max-width: 40%;
   text-align: center;
+  display: inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weekday-forecast-container .max-temp {
+  color: #E7E7EB;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weekday-forecast-container .min-temp {
+  color: #A09FB1;
+}
+.today-highligh-container {
+  background: #1E213A;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.today-highlight-title {
+  color: #E7E7EB;
 }
