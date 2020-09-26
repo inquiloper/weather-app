@@ -2,39 +2,3 @@
 #weather-forecast-container {
   background-color: #100E1D;
 }
-
-.weekday-forecast-container .forecast-icon {
-  
-}
-
-.weekday-forecast-container .max-temp {
-  color: #E7E7EB;
-}
-
-.weekday-forecast-container .min-temp {
-  color: #A09FB1;
-}
-.today-highligh-container {
-  background: #1E213A;
-}
-
-.today-highlight-title {
-  color: #E7E7EB;
-}
-
-#today-forecast-img {
-  max-width: 50%;
-}
-
-#today-forecast-container {
-  color: #E7E7EB;
-}
-.today-forecast-temp {
-  font-size: 5rem;
-  color: #E7E7EB;
-}
-
-.today-forecast-temp-unit {
-  color:  #A09FB1;
-  font-size: 2.5rem;
-}
