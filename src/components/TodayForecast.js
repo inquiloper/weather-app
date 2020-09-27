@@ -48,13 +48,18 @@ const LocalizeBtn = styled.button`
 `;
 
 class TodayForecast extends React.Component {
+
+    constructor(props) {
+      super(props);
+    }
+
     render() {
         return (
             <>
                 <ForecastContainer>
                     <Row className="mt-5">
                       <Col className="d-flex">
-                        <SearchPlacesBtn className="ml-3">Search for places</SearchPlacesBtn>
+                        <SearchPlacesBtn className="ml-3" onClick={() => this.props.toggleDrawer()}>Search for places</SearchPlacesBtn>
                         <LocalizeBtn className="ml-auto mr-3"><FontAwesomeIcon icon={faCompass}/></LocalizeBtn>
                       </Col>
                     </Row>
@@ -81,7 +86,7 @@ class TodayForecast extends React.Component {
                     </Row>
                     <Row className="mt-5">
                       <Col className="d-flex justify-content-center">
-                        <p><FontAwesomeIcon icon={faMapMarkerAlt}/> Valparaiso</p>
+                        <p><FontAwesomeIcon icon={faMapMarkerAlt}/> Helsinki</p>
                       </Col>
                     </Row>
                 </ForecastContainer>
